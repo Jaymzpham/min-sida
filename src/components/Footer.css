@@ -1,0 +1,39 @@
+.footer {
+  padding: 32px;
+  background-color: #4a2e51;
+  color: #fcf6fa;
+}
+
+.footer-rad {
+  display: flex;                    /* lägger text och länkar bredvid varandra */
+  justify-content: space-between;   /* text till vänster, länkar till höger */
+  align-items: center;
+  flex-wrap: wrap;                  /* på mobil hamnar länkarna under texten */
+  gap: 16px;
+}
+
+.footer-lankar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;                        /* avstånd mellan länkarna */
+}
+
+.footer-lankar a {
+  color: #f3bbd9;
+  text-decoration: none;            /* tar bort understrykningen */
+}
+
+.footer-lankar a:hover {
+  text-decoration: underline;
+}
+
+.footer-lankar a:focus-visible {
+  outline: 2px solid #f3bbd9;
+  outline-offset: 4px;
+}
+
+.footer-copy {
+  text-align: center;               /* lägger texten i mitten */
+  font-size: 14px;
+  margin-top: 24px;
+}
